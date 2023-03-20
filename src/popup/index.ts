@@ -1,4 +1,4 @@
-// import './index.css'
+import './index.css'
 
 // const crx = 'create-chrome-ext'
 
