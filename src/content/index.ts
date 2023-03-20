@@ -16,7 +16,9 @@ let previousUrl = ''
 const observer = new MutationObserver(function (mutations) {
   if (location.href !== previousUrl) {
     previousUrl = location.href
-    pageLoad()
+    setTimeout(() => {
+      pageLoad()
+    }, 200)
   }
 })
 
