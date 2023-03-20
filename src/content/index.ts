@@ -1,6 +1,6 @@
 import { BookingPage } from './booking'
 
-console.info('chrome-ext template-vanilla-ts content script')
+// console.info('chrome-ext template-vanilla-ts content script')
 
 function pageLoad() {
   const path = location.href
